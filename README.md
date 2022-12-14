@@ -85,7 +85,7 @@ git checkout index.html
 Type:
 
 ```console
-git checkout 1111111
+git checkout 06aa6be45d24356ea3621128fe7001c19b187d0b
 ```
 
 ## Get the current version
@@ -109,17 +109,17 @@ git checkout ex_branch
 Type:
 
 ```console
-git show 1111111:index.html
+git show 06aa6be45d24356ea3621128fe7001c19b187d0b:index.html
 ```
 
 ## Use show to retrieve another version of a specific file in history
 
-You can use `show` to also get the older file versions and compare them inside of VSCode very easily.
+You can use `show` to also get the older file versions and compare them inside of VSCode very easily. Select both files and hit compare in the right-click menu.
 
 ### git show commit-number:filename > oldfile
 
 Type:
 
 ```console
-git show 1111111:index.html > index_old.html
+git show 06aa6be45d24356ea3621128fe7001c19b187d0b:index.html > index_old.html
 ```
